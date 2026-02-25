@@ -1,0 +1,36 @@
+html {
+  font-family: "Comic Sans MS", "Comic Sans", Arial, sans-serif;
+}
+h1, h2{
+  font-family: Papyrus;
+  color: purple
+}
+/* Style the navigation list */
+ul {
+  list-style: none;        /* removes bullet points */
+  margin: 0;               /* removes default outer spacing */
+  padding: 0;              /* removes default inner spacing */
+}
+
+/* Make list items horizontal */
+li {
+  display: inline-block;   /* places items side-by-side */
+}
+
+/* Style the links inside the list */
+li a {
+  color: black;            /* makes link text black */
+  padding: 16px;           /* adds space around each link */
+  background-color: gray;  /* makes the nav bar gray */
+}
+
+li a:hover {
+  background-color: #AAA; /* hover highlight */
+}
+
+footer {
+  background-color: #DDD;  /* light gray background */
+  color: #555;             /* darker gray text */
+  text-align: center;      /* centers the text */
+  padding: 16px;           /* 16px space on all sides */
+}
